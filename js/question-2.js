@@ -10,11 +10,7 @@ async function getApiCall() {
 
     const arrayOfObjects = await response.json();
 
-    console.log(arrayOfObjects)
-
     const games = arrayOfObjects.results;
-
-    console.log(games);
 
     setTimeout(function() {
         loading.classList.remove("loading-indicator");
