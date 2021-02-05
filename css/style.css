@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-color: #ffe4c4;
 }
 h1 {
   font-size: 40px;
@@ -11,8 +11,8 @@ h1 {
 }
 
 .loading-indicator {
-  border: 20px solid #e8e8e8;
-  border-top: 20px solid #000000;
+  border: 20px solid #ffffff;
+  border-top: 20px solid #7a7a7a;
   border-radius: 50%;
   width: 100px;
   height: 100px;
