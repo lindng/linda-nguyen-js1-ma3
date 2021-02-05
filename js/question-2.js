@@ -23,7 +23,7 @@ async function getApiCall() {
         if (i === 8) {
             break;
         }
-        container.innerHTML += `<div class="games">${games[i].name} ${games[i].rating} ${games[i].tags.length}</div>`;
+        container.innerHTML += `<div class="item">${games[i].name} ${games[i].rating} ${games[i].tags.length}</div>`;
     }   
     } catch (error) {
         container.innerHTML = displayError("An error occured when calling the API")

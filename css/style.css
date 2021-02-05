@@ -1,13 +1,25 @@
 body {
-  background-color: #ffe4c4;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
   font-size: 40px;
+  margin: 30px;
 }
 .games {
   padding: 10px;
   font-size: 20px;
   background-color: #ffffff;
+  text-align: center;
+}
+
+.item {
+  padding: 10px;
+  margin: 15px;
+  width: 300px;
+  color: #000000;
+  background-color: #c4955d;
+  font-weight: bold;
 }
 
 .loading-indicator {
