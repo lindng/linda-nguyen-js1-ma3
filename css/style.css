@@ -1,0 +1,29 @@
+body {
+  background-color: bisque;
+}
+h1 {
+  font-size: 40px;
+}
+.games {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #ffffff;
+}
+
+.loading-indicator {
+  border: 20px solid #e8e8e8;
+  border-top: 20px solid #000000;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
